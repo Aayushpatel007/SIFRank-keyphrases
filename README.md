@@ -7,9 +7,30 @@ https://github.com/sunyilgdx/SIFRank
 
 Usage:
 
+FOR GPU:
+
 ```
 docker pull aayushpatel007/sifrank-keyphrases
 
+```
+
+For CPU usage:
+
+```
+docker pull aayushpatel007/sifrank-keyphrases -1 
+
+```
+
+API:
+
+```
+http:\\server_ip:5000\sifrank
+POST:
+{
+'text' : ' ',
+'N': 10 , #Number of keyphrases
+'Sifrankplus' ,1 # Use SIFRank+ if yes ==1 and no ==01
+}
 ```
 
 ```
