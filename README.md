@@ -29,7 +29,7 @@ POST:
 {
 'text' : ' ',
 'N': 10 , #Number of keyphrases
-'Sifrankplus' ,1 # Use SIFRank+ if yes ==1 and no ==01
+'Sifrankplus' ,1 # Use SIFRank+ if yes ==1 and no ==0
 }
 ```
 
