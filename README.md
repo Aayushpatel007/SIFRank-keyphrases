@@ -10,14 +10,13 @@ Usage:
 FOR GPU:
 
 ```
-docker pull aayushpatel007/sifrank-keyphrases
-
+docker run -p 5000:5000 aayushpatel007/unsupervised-keyphrase-extraction-sifrank 0 
 ```
 
 For CPU usage:
 
 ```
-docker pull aayushpatel007/sifrank-keyphrases -1 
+docker run -p 5000:5000 aayushpatel007/unsupervised-keyphrase-extraction-sifrank -1 
 
 ```
 
